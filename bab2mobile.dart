@@ -213,10 +213,11 @@ void main() {
 
   // Informasi produk setelah diskon
   print(
-      "Nama Produk: ${produk1.namaProduk}, Harga setelah diskon: ${produk1.harga}");
+      "Nama Produk: ${produk1.namaProduk}, Harga asli: ${produk1.harga}");
+  print(
+      "Nama Produk: ${produk2.namaProduk}, Harga asli : 200000");
   print(
       "Nama Produk: ${produk2.namaProduk}, Harga setelah diskon: ${produk2.harga}");
-
   // Membuat instance perusahaan
   var perusahaan = Perusahaan();
 
